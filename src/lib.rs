@@ -37,8 +37,7 @@ mod tests {
 
     #[test]
     fn test_geet_was() {
-        let file_path: &str =
-            "C:\\Users\\Tao Mao\\Downloads\\①.数据服务端(7月8日)\\数据服务端\\scene\\gj.wdf";
+        let file_path: &str = "gj.wdf";
 
         let was_key: u32 = 1577923263;
         load_was(file_path, &was_key);
