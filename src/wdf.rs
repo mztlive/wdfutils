@@ -127,8 +127,7 @@ mod tests {
 
     #[test]
     fn test_decode() {
-        let file_path: &str =
-            "C:\\Users\\Tao Mao\\Downloads\\①.数据服务端(7月8日)\\数据服务端\\scene\\gj.wdf";
+        let file_path: &str = "gj.wdf";
         let file_list = decode(file_path).unwrap();
         assert_eq!(file_list.len() > 0, true);
     }

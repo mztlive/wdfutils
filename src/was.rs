@@ -354,7 +354,7 @@ mod tests {
 
     #[test]
     fn test_decode() {
-        let file_path = "C:\\Users\\Tao Mao\\Documents\\Tencent Files\\138019260\\FileRecv\\magic2\\0012-13-0.was";
+        let file_path = "0012-13-0.was";
         let file = std::fs::read(file_path).unwrap();
         let mut file = Cursor::new(file);
         get_images(&mut file);
